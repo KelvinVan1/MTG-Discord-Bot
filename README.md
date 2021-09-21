@@ -1,6 +1,6 @@
 # MTG-Discord-Bot
 
-The MTG-Discord-Bot Utilizes Scryfall's api along with the Discord bot API in order to create a bot which is able to preform basic search functions either by name or by name and set. Fuzzy searching is also implemented and names for both the card names do not need to be exact. Improvements to the design are expected as I have a couple of planned items that I wish to add to further flesh out the bot. Below are examples of how the bot works with the current commands that are possible within the system.
+The MTG-Discord-Bot Utilizes Scryfall's api along with the Discord bot API in order to create a bot which is able to preform basic search functions either by name or by name and set. Fuzzy searching is also implemented and names for both the card names and set names so naming not need to be exact. Improvements to the design are expected as I have a couple of planned items that I wish to add to further flesh out the bot. Below are examples of how the bot works with the current commands that are possible within the system.
 
 # Adding the bot
 If you wish to add the bot to your own server there are two options you can take.
