@@ -1,0 +1,1 @@
+Replace with token and remove .template from the file name
