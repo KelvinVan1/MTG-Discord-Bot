@@ -14,9 +14,9 @@ https://discord.com/api/oauth2/authorize?client_id=546583977830383616&permission
 
 # Images
 
-![Help](https://github.com/KelvinVan1/Mtg-Discord-Bot-Images/blob/main/BotHelpPage.png)
+![Help](https://raw.githubusercontent.com/KelvinVan1/Mtg-Discord-Bot-Images/main/BotHelpPage.png?token=AVTXJWLSCXGJMIJ55MMS53DBJ2JSY)
 
-![Basic Search](https://github.com/KelvinVan1/Mtg-Discord-Bot-Images/blob/main/BotBasicSearch.png)
+![Basic Search](https://raw.githubusercontent.com/KelvinVan1/Mtg-Discord-Bot-Images/main/BotBasicSearch.png?token=AVTXJWOGIPLSTXYF7VXT2XTBJ2JRW)
 
-![Advanced Search](https://github.com/KelvinVan1/Mtg-Discord-Bot-Images/blob/main/BotAdvSearch.png)
+![Advanced Search](https://raw.githubusercontent.com/KelvinVan1/Mtg-Discord-Bot-Images/main/BotAdvSearch.png?token=AVTXJWMRWCHZOQMATAELQP3BJ2JQG)
 
