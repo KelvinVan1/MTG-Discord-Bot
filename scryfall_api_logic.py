@@ -12,20 +12,19 @@ class ScryfallLogic:
         self.card = None
         self.set_names = {}
 
-    def create_set_dictionary(self):
+    def create_set_dictionary(self) -> None:
         """Using set data from scryfall's site create a dictionary with set codes as the keys and names as the values"""
         data = self.open_link(self.set_search, {})
         for magic_set in data["data"]:
             self.set_names[magic_set["code"].upper()] = magic_set["name"].upper()
+        print("Creation of set dictionary has been completed")
 
     def fuzzy_search_sets(self, user_set: str) -> str:
         """Using a user inputted set name/code utilize fuzzy search in order to return the proper set code"""
         best_set_match = ""
         current_best_percentage = 0
         for key, value in self.set_names.items():
-            if fuzz.ratio(user_set, key) > current_best_percentage or \
-               fuzz.ratio(user_set, value) > current_best_percentage:
-
+            if max(fuzz.ratio(user_set, value), fuzz.ratio(user_set, key)) > current_best_percentage:
                 best_set_match = key
                 current_best_percentage = max(fuzz.ratio(user_set, value), fuzz.ratio(user_set, key))
 

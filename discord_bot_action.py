@@ -10,12 +10,14 @@ bot_functions = discord_logic.BotFunctions()
 scryfall_api = scryfall_api_logic.ScryfallLogic()
 scryfall_api.create_set_dictionary()
 
+
 @client.event
 async def on_ready():
     print('We have logged in as {0.user} and have completed startup processes'.format(client))
 
 
 @client.command(name="search")
+@commands.max_concurrency(1, per=commands.BucketType.default, wait=True)
 async def mtg_search(ctx, arg):
     scryfall_api.quick_search_card(arg)
     bot_functions.create_search_embed(scryfall_api.card)
@@ -25,6 +27,7 @@ async def mtg_search(ctx, arg):
 
 
 @client.command(name="setsearch")
+@commands.max_concurrency(1, per=commands.BucketType.default, wait=True)
 async def mtg_search(ctx, *args):
     fuzzy_set = scryfall_api.fuzzy_search_sets(args[0].upper())
     scryfall_api.set_search_card(args[1], fuzzy_set)
@@ -35,6 +38,7 @@ async def mtg_search(ctx, *args):
 
 
 @client.command(name="help")
+@commands.max_concurrency(1, per=commands.BucketType.default, wait=True)
 async def mtg_help(ctx):
     mtg_help_message = discord.Embed()
     mtg_help_message.title = "__***Help:***__"
