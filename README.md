@@ -8,8 +8,8 @@ If you wish to add the bot to your own server there are two options you can take
 1. If you wish to host the bot youself you are welcome to download the source code using https://discord.com/developers/applications in order to create your own bot application and filling in your token to host it on your own PC or on a server. From here you can either download the code directly as a Zip, or download the launcher I have created using pyinstall to run the program. Be sure to have your bot's token key handy as the program will ask for it upon first launching it.
 
 Libaries used:
-Discordpy
-Requests
+Discordpy,
+Requests,
 theFuzz
 
 
@@ -20,9 +20,9 @@ https://discord.com/api/oauth2/authorize?client_id=546583977830383616&permission
 
 # Images
 
-![Help](https://raw.githubusercontent.com/KelvinVan1/Mtg-Discord-Bot-Images/main/BotHelpPage.png?token=AVTXJWLSCXGJMIJ55MMS53DBJ2JSY)
+![Help](https://raw.githubusercontent.com/KelvinVan1/Mtg-Discord-Bot-Images/main/BotHelpPage.png?token=AVTXJWPQ33GGOCO4A2YD4E3BKNR7Q)
 
-![Basic Search](https://raw.githubusercontent.com/KelvinVan1/Mtg-Discord-Bot-Images/main/BotBasicSearch.png?token=AVTXJWOGIPLSTXYF7VXT2XTBJ2JRW)
+![Basic Search](https://raw.githubusercontent.com/KelvinVan1/Mtg-Discord-Bot-Images/main/BotBasicSearch.png?token=AVTXJWL4AKJZDT2C7XAVNLLBKNR7O)
 
-![Advanced Search](https://raw.githubusercontent.com/KelvinVan1/Mtg-Discord-Bot-Images/main/BotAdvSearch.png?token=AVTXJWMRWCHZOQMATAELQP3BJ2JQG)
+![Advanced Search](https://raw.githubusercontent.com/KelvinVan1/Mtg-Discord-Bot-Images/main/BotAdvSearch.png?token=AVTXJWJLZUDC6ZSROL36PKLBKNR6C)
 
