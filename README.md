@@ -5,7 +5,9 @@ The MTG-Discord-Bot Utilizes Scryfall's api along with the Discord bot API in or
 # Adding the bot
 If you wish to add the bot to your own server there are two options you can take.
 
-1. If you wish to host the bot youself you are welcome to download the source code using https://discord.com/developers/applications in order to create your own bot application and filling in your token to host it on your own PC or on a server. From here you can either download the code directly as a Zip, or download the launcher I have created using pyinstall to run the program. Be sure to have your bot's token key handy as the program will ask for it upon first launching it.
+1. If you wish to host the bot youself you are welcome to download the source code then use https://discord.com/developers/applications in order to create your own bot application and filling in your token into the program when prompted to host it on your own PC or on a server. 
+
+3. You can either download the code directly as a Zip, or download the launcher I have created using pyinstall to run the program. Be sure to have your bot's token key handy as the program will ask for it upon first launching it.
 
 Libaries used:
 Discordpy,
